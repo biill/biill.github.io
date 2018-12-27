@@ -2555,3 +2555,50 @@ body > article {
     margin-top: 0;
   }
 }
+
+/* ---------- Blog Landing Page ---------- */
+
+.container article.post {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#blog-listing-medium .post {
+  margin-bottom: 4em;
+  text-align: initial;
+}
+
+#blog-listing-medium .post h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 800;
+  color: cornflowerblue;
+  transition: all 0.2s ease-out;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p.intro {
+  float: left;
+  color: darkgray;
+  font-weight: 800;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4em;
+}
+
+#blog-listing-medium .post .date-comments {
+  text-transform: uppercase;
+  font-size: 0.875em;
+  letter-spacing: 0.08em;
+  color: #242424;
+  font-weight: 800;
+}
+
+#blog-listing-medium .post a.continue-reading {
+  margin-top: 0.1em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
